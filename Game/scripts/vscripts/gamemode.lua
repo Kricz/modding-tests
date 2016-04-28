@@ -4,8 +4,6 @@ require('libs/animations')
 require('libs/playertables')
 require('libs/notifications')
 
-require("gamemode")
-
 
 if GameMode == nil then
     _G.GameMode = class({})
